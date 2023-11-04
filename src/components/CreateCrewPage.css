@@ -1,0 +1,38 @@
+.label-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 30px 10px 0px 10px;
+    border-radius: 15px;
+    background-color: #8b8b8b;
+    padding: 20px;
+}
+
+label{
+    font-size: 25px;
+}
+
+input[type="radio"] {
+    transform: scale(1.5);
+    margin: 5px 0px 0px 15px;
+}
+
+input[type="text"] {
+    margin-left: 10px;
+    height: 30px;
+    font-size: 1.25em;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+input[type="submit"]:active {
+    background-color:beige;
+    color: #213054
+}
